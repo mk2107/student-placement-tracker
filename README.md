@@ -35,7 +35,7 @@ A full-stack placement management system built with React (Vite + Tailwind), Spr
 1. Open `backend/src/main/resources/application.properties` and set your MySQL password:
    ```properties
    spring.datasource.password=YOUR_MYSQL_PASSWORD_HERE
-   ```
+   ```api
 2. From the `backend/` folder, run:
    ```bash
    mvn spring-boot:run
@@ -44,7 +44,7 @@ A full-stack placement management system built with React (Vite + Tailwind), Spr
 3. On first startup, a default admin account is created automatically:
    - **Username:** `admin`
    - **Password:** `Admin@123`
-4. The API is now running at `http://localhost:8080/api`.
+4. The API is now running at `http://localhost:8080/`.
 
 ### Testing the API with Postman
 Import `postman/PlacementTracker.postman_collection.json` into Postman. Run the **Login** request first — it automatically saves the JWT token into a collection variable, which every other request then uses automatically.
