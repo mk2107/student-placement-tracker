@@ -4,7 +4,7 @@ A full-stack placement management system built with React (Vite + Tailwind), Spr
 
 ## Tech Stack
 - **Frontend:** React (Vite), Tailwind CSS, React Router, Recharts, Axios
-- **Backend:** Java 17, Spring Boot 3, Spring Security (JWT), Spring Data JPA
+- **Backend:** Java 24, Spring Boot 3, Spring Security (JWT), Spring Data JPA
 - **Database:** MySQL 8
 - **API Testing:** Postman (collection included)
 - **Version Control:** Git & GitHub
