@@ -1,0 +1,394 @@
+2026-07-15T15:50:17.708Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T15:50:17.708Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "17",
+        "targetVersion": "25"
+      }
+    ]
+  }
+}}).
+2026-07-15T15:50:17.708Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:50:17.715Z [INFO] Project m:\student-placement-tracker\student-placement-tracker is not a maven project, try to get java version from gradle
+2026-07-15T15:50:17.730Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T15:50:17.731Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T15:50:17.815Z [INFO] Try to get java version from gradle config files: 
+2026-07-15T15:50:17.816Z [INFO] Try to get java version from gradle properties: undefined
+2026-07-15T15:50:17.816Z [INFO] Project java version: 8
+2026-07-15T15:50:17.855Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect build tool for the project at m:\student-placement-tracker\student-placement-tracker. There are child Maven/Gradle projects detected: "backend". Would you like to use one of them instead?
+2026-07-15T15:50:17.858Z [INFO] Project m:\student-placement-tracker\student-placement-tracker is not a maven project, try to get java version from gradle
+2026-07-15T15:50:17.879Z [INFO] Try to get java version from gradle config files: 
+2026-07-15T15:50:17.880Z [INFO] Try to get java version from gradle properties: undefined
+2026-07-15T15:50:20.222Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-07-15T15:50:20.223Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260715155017"
+}}).
+2026-07-15T15:50:20.223Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:50:20.224Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-07-15T15:50:20.225Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-07-15T15:50:20.340Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-07-15T15:50:20.343Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260715155017"
+}}).
+2026-07-15T15:50:20.345Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:50:20.402Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 22.0.1\n   📁 Path: C:\\Program Files\\Java\\jdk-22\\bin\n   🏷️ Source: others\n\n2. Java 23.0.1\n   📁 Path: C:\\Program Files\\Java\\jdk-23\\bin\n   🏷️ Source: others\n\n3. Java 24\n   📁 Path: C:\\Program Files\\Java\\jdk-24\\bin\n   🏷️ Source: others\n\nTotal: 3 JDK installation(s) found"
+}}).
+2026-07-15T15:50:20.402Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-07-15T15:50:23.020Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-07-15T15:50:23.020Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260715155017"
+}}).
+2026-07-15T15:50:23.021Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:50:23.022Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-07-15T15:50:23.022Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-07-15T15:50:23.121Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-07-15T15:50:23.122Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260715155017"
+}}).
+2026-07-15T15:50:23.122Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:50:23.131Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-07-15T15:50:23.131Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-07-15T15:50:43.095Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T15:50:43.096Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-07-15T15:50:43.096Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:50:43.096Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T15:50:43.096Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T15:50:43.156Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T15:50:43.156Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-07-15T15:50:43.156Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:50:43.158Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T15:50:43.158Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T15:52:59.209Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T15:52:59.210Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-07-15T15:52:59.210Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:52:59.210Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T15:52:59.211Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T15:52:59.283Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T15:52:59.284Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-07-15T15:52:59.284Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:52:59.285Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T15:52:59.286Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T15:53:02.644Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-07-15T15:53:02.645Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260715155017",
+  "autoExecute": true
+}}).
+2026-07-15T15:53:02.646Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:53:02.646Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Auto-executing [upgrade plan](file:///m:/student-placement-tracker/student-placement-tracker/.github/modernize/java-upgrade/20260715155017/plan.md)"
+}}).
+2026-07-15T15:53:02.646Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-07-15T15:53:02.729Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-07-15T15:53:02.729Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "autoExecute": true
+}}).
+2026-07-15T15:53:02.730Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:53:02.730Z [INFO] Upgrade plan confirmed successfully.
+2026-07-15T15:53:02.730Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-07-15T15:53:02.730Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-07-15T15:53:05.553Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T15:53:05.553Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-07-15T15:53:05.553Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:53:05.554Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T15:53:05.554Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T15:53:05.612Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T15:53:05.612Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-07-15T15:53:05.612Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:53:05.818Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T15:53:05.819Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T15:53:08.311Z [INFO] ---------------------prepare appmod-install-maven----------------------
+2026-07-15T15:53:08.312Z [INFO] [Tool.prepareInvocation]({name: appmod-install-maven, input: {
+  "sessionId": "20260715155017",
+  "version": "3.9.15",
+  "dest": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\maven"
+}}).
+2026-07-15T15:53:08.312Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:53:15.748Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install Maven"
+}}).
+2026-07-15T15:53:15.754Z [INFO] ----------------------prepared appmod-install-maven----------------------
+2026-07-15T15:53:15.873Z [INFO] ----------------------invoke appmod-install-maven----------------------
+2026-07-15T15:53:15.873Z [INFO] [Tool.invoke]({name: appmod-install-maven, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "version": "3.9.15",
+  "dest": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\maven"
+}}).
+2026-07-15T15:53:15.874Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:54:25.481Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "mvn",
+    "path": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\maven\\maven-3.9.15\\bin",
+    "version": "3.9.15"
+  },
+  "message": "Maven 3.9.15 is installed at m:\\student-placement-tracker\\student-placement-tracker\\.tools\\maven\\maven-3.9.15\\bin",
+  "telemetry": {
+    "tool": "Maven",
+    "version": "3.9.15"
+  }
+}}).
+2026-07-15T15:54:25.481Z [INFO] ----------------------invoked appmod-install-maven----------------------
+2026-07-15T15:54:31.852Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T15:54:31.852Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Java\\jdk-24\\bin",
+    "buildToolPath": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\maven\\maven-3.9.15\\bin\\mvn.cmd"
+  }
+}}).
+2026-07-15T15:54:31.853Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T15:54:31.853Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T15:54:31.853Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T15:54:31.909Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T15:54:31.909Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Java\\jdk-24\\bin",
+    "buildToolPath": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\maven\\maven-3.9.15\\bin\\mvn.cmd"
+  }
+}}).
+2026-07-15T15:54:31.910Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T15:54:31.911Z [INFO] Project m:\student-placement-tracker\student-placement-tracker is not a maven project, try to get java version from gradle
+2026-07-15T15:54:31.914Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T15:54:31.915Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T15:54:31.982Z [INFO] Try to get java version from gradle config files: 
+2026-07-15T15:54:31.985Z [INFO] Try to get java version from gradle properties: undefined
+2026-07-15T15:54:31.986Z [INFO] Project java version: 8
+2026-07-15T15:54:32.030Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect build tool for the project at m:\student-placement-tracker\student-placement-tracker. There are child Maven/Gradle projects detected: "backend". Would you like to use one of them instead?
+2026-07-15T15:54:32.033Z [INFO] Project m:\student-placement-tracker\student-placement-tracker is not a maven project, try to get java version from gradle
+2026-07-15T15:54:32.057Z [INFO] Try to get java version from gradle config files: 
+2026-07-15T15:54:32.058Z [INFO] Try to get java version from gradle properties: undefined
+2026-07-15T16:03:21.582Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T16:03:21.583Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 2,
+    "stepTitle": "Update Runtime Configuration"
+  }
+}}).
+2026-07-15T16:03:21.584Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T16:03:21.584Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T16:03:21.585Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T16:03:21.701Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T16:03:21.701Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 2,
+    "stepTitle": "Update Runtime Configuration"
+  }
+}}).
+2026-07-15T16:03:21.702Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T16:03:21.704Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T16:03:21.704Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T16:04:12.150Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T16:04:12.151Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "buildCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-07-15T16:04:12.152Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T16:04:12.153Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T16:04:12.153Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T16:04:12.224Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T16:04:12.224Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "buildCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-07-15T16:04:12.224Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T16:04:12.227Z [INFO] Project m:\student-placement-tracker\student-placement-tracker is not a maven project, try to get java version from gradle
+2026-07-15T16:04:12.238Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T16:04:12.238Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T16:04:12.355Z [INFO] Try to get java version from gradle config files: 
+2026-07-15T16:04:12.356Z [INFO] Try to get java version from gradle properties: undefined
+2026-07-15T16:04:12.356Z [INFO] Project java version: 8
+2026-07-15T16:04:38.691Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-07-15T16:04:38.692Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20260715155017",
+  "version": "25",
+  "dest": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\jdk"
+}}).
+2026-07-15T16:04:38.695Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T16:04:42.239Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK"
+}}).
+2026-07-15T16:04:42.240Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-07-15T16:04:42.327Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-07-15T16:04:42.328Z [INFO] [Tool.invoke]({name: appmod-install-jdk, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "version": "25",
+  "dest": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\jdk"
+}}).
+2026-07-15T16:04:42.328Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T16:21:36.948Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "m:\\student-placement-tracker\\student-placement-tracker\\.tools\\jdk\\jdk-25.0.2\\bin",
+    "version": "25.0.2"
+  },
+  "message": "JDK 25 is installed at m:\\student-placement-tracker\\student-placement-tracker\\.tools\\jdk\\jdk-25.0.2\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "25"
+  }
+}}).
+2026-07-15T16:21:36.951Z [INFO] ----------------------invoked appmod-install-jdk----------------------
+2026-07-15T16:26:12.631Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T16:26:12.633Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Final Validation",
+    "commitId": "N/A"
+  }
+}}).
+2026-07-15T16:26:12.634Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T16:26:12.635Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T16:26:12.635Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T16:26:12.723Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T16:26:12.724Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Final Validation",
+    "commitId": "N/A"
+  }
+}}).
+2026-07-15T16:26:12.724Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T16:26:12.732Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T16:26:12.732Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-15T16:26:19.041Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-07-15T16:26:19.045Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-07-15T16:26:19.045Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-15T16:26:19.048Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-07-15T16:26:19.049Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-07-15T16:26:19.136Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-15T16:26:19.136Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260715155017",
+  "projectPath": "m:\\student-placement-tracker\\student-placement-tracker",
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "status": "succeeded"
+}}).
+2026-07-15T16:26:19.136Z [INFO] [Tool.invoke] do invoke.
+2026-07-15T16:26:19.151Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260715155017,\nSession Dir: m:\\student-placement-tracker\\student-placement-tracker\\.github\\modernize\\java-upgrade\\20260715155017"
+}}).
+2026-07-15T16:26:19.151Z [INFO] ----------------------invoked appmod-report-event----------------------
