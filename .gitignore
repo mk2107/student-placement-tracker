@@ -1,0 +1,15 @@
+# Java / Maven
+target/
+*.class
+*.jar
+.idea/
+*.iml
+
+# Node / Vite
+node_modules/
+dist/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
