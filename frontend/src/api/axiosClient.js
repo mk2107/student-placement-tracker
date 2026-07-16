@@ -4,7 +4,7 @@ import axios from 'axios'
 // this, so token attachment and error handling are written ONCE here instead
 // of being repeated in every component that makes a request.
 const axiosClient = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://student-placement-tracker-gxkz.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
